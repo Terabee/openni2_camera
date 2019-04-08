@@ -20,7 +20,7 @@ $ sudo apt-get install libopenni2-0 libopenni2-dev
 ```
 
 ## Download and install the Terabee 3Dcam SDK
-You can download the Terabee SDK from the Downloads section of Terabee 3Dcam [here](https://www.terabee.com/portfolio-item/terabee-3dcam-80x60/#downloads).
+You can download the Terabee SDK from the Downloads section of Terabee 3Dcam [here](https://www.terabee.com/shop/3d-tof-cameras/terabee-3dcam/).
 
 Then install it using the following commands:
 ```
