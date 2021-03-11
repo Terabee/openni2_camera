@@ -4,13 +4,9 @@ This package is a modified version of the openni2_camera package, it has been up
 
 ## Install the pre-required ROS packages
 
-* For Ubuntu 16.04 with ROS Kinetic
+* Install the rgbd-launch package using the following command. Replace <distro> by your ROS version name (kinetic, melodic, etc.)
 ```
-$ sudo apt-get install ros-kinetic-rgbd-launch
-```
-* For Ubuntu 14.04 with ROS Indigo
-```
-$ sudo apt-get install ros-indigo-rgbd-launch
+$ sudo apt-get install ros-<distro>-rgbd-launch
 ```
 
 ## Install openni2 packages for Ubuntu
