@@ -4,13 +4,9 @@ This package is a modified version of the openni2_camera package, it has been up
 
 ## Install the pre-required ROS packages
 
-* For Ubuntu 16.04 with ROS Kinetic
+* Install the rgbd-launch package using the following command. Replace \<distro\> by your ROS version name (kinetic, melodic, etc.)
 ```
-$ sudo apt-get install ros-kinetic-rgbd-launch
-```
-* For Ubuntu 14.04 with ROS Indigo
-```
-$ sudo apt-get install ros-indigo-rgbd-launch
+$ sudo apt-get install ros-<distro>-rgbd-launch
 ```
 
 ## Install openni2 packages for Ubuntu
@@ -31,16 +27,7 @@ $ sudo ./install.sh
 
 ### Install OpenCV 2
 
-In order to use the SDK, it is **mandatory** to install the right OpenCV version. In the repository are included scripts that will help you install OpenCV on your system. Depending on your Ubuntu version, you will have to run the relevant script as follows:
-
-* If you are using Ubuntu 16.04, you must install OpenCV 3.1.0:
-```
-./install-opencv-3.1.0.sh
-```
-* If you are using Ubuntu 14.04, you must install OpenCV 2.4.11:
-```
-./install-opencv-2.4.11.sh
-```
+In order to use the SDK, it is **mandatory** to install the right OpenCV version. We recommend following the OpenCV installation for linux available [here](https://github.com/Terabee/linux_openni2_samples#install-opencv).
 
 # Build and use the modified openni2_camera package
 ## Downloading and building the package
