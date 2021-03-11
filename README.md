@@ -4,7 +4,7 @@ This package is a modified version of the openni2_camera package, it has been up
 
 ## Install the pre-required ROS packages
 
-* Install the rgbd-launch package using the following command. Replace <distro> by your ROS version name (kinetic, melodic, etc.)
+* Install the rgbd-launch package using the following command. Replace \<distro\> by your ROS version name (kinetic, melodic, etc.)
 ```
 $ sudo apt-get install ros-<distro>-rgbd-launch
 ```
